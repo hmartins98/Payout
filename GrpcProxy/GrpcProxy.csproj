@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>906c1bb0-fc8a-4005-a81d-b4c77708e2b6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.11.4" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
+    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.27.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.27.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.27.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\Contracts\Protos\Auth.proto" GrpcServices="Both">
+      <Link>Protos\Auth.proto</Link>
+    </Protobuf>
+    <Protobuf Include="..\Contracts\Protos\Customer.proto" GrpcServices="Both">
+      <Link>Protos\Customer.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CustomTypesGRPC">
+      <HintPath>..\CustomTypesGRPC\bin\Debug\netcoreapp3.0\CustomTypesGRPC.dll</HintPath>
+    </Reference>
+  </ItemGroup>  
+
+</Project>

@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "AuthService";
+
+package AuthenticationPackage;
+
+import "CustomTypes.proto";
+
+service Authentication {
+  rpc AuthenticateLogin (AuthenticationLoginRequest) returns (AuthenticationReply);
+  rpc AuthenticateToken (AuthenticationTokenRequest) returns (AuthenticationReply);
+  rpc CreateAuthentication (CreateAuthenticationRequest) returns (AuthenticationReply);
+}
+
+message AuthenticationLoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message AuthenticationTokenRequest {
+  GUID validation_token = 1;
+}
+
+message CreateAuthenticationRequest {
+  string username = 1;
+  string password = 2;
+  string nome = 3;
+  string email = 4;
+}
+
+message AuthenticationReply {
+  GUID user_id = 1;
+  GUID validation_token = 2;
+  GUID session_key = 4;
+}

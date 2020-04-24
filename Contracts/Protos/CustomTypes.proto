@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "CustomTypesGRPC";
+
+import "google/protobuf/timestamp.proto";
+
+message DECIMAL {
+  int64 units = 1;
+  sfixed32 nanos = 2;
+}
+
+message GUID {
+  string value = 1;
+}
+
+message DATETIME {
+   google.protobuf.Timestamp value = 1;
+}
+
+message BOOL {
+   bool value = 1;
+}

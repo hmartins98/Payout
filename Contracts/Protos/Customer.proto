@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option csharp_namespace = "CustomerService";
+
+package CustomerPackage;
+
+import "CustomTypes.proto";
+
+service CustomerContract {
+  rpc CreateCustomer (Customer) returns (Customer);
+  rpc ReadCustomer (CustomerId) returns (Customer);
+  rpc UpdateCustomer (Customer) returns (BOOL);
+  rpc DeleteCustomer (CustomerId) returns (BOOL);
+}
+
+message Customer {
+  GUID id = 1;
+  string name = 2;
+  DATETIME birth_date = 3;
+  int32 type_id = 4;
+  repeated CustomerPhoneContacts customer_phone_contacts = 5;
+  repeated CustomerAddress customer_address = 6;
+  repeated CustomerPaymentCredentials customer_payment_credentials = 7;
+}
+message CustomerPhoneContacts {
+  GUID id = 1;
+  string number = 2;
+  int32 type_id = 3;
+  int32 country_code = 4;
+  int32 country_id = 5;
+}
+message CustomerAddress {
+  GUID id = 1;
+  string address = 2;
+  string zip_code = 3;
+  int32 country_id = 4;
+}
+message CustomerPaymentCredentials {
+  GUID id = 1;
+  string number = 2;
+  int32 type_id = 3;
+  DATETIME ExpirationDate = 4;
+}
+
+message CustomerId {
+  GUID id = 1;
+}
