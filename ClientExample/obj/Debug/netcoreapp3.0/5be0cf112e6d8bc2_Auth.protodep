@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.0/Auth.cs \
+obj\Debug\netcoreapp3.0/AuthGrpc.cs: C:/Users/User/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/timestamp.proto\
+ ../Contracts/Protos/CustomTypes.proto\
+ ../Contracts/Protos/Auth.proto

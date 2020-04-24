@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.0/Customer.cs \
+obj\Debug\netcoreapp3.0/CustomerGrpc.cs: C:/Users/User/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/timestamp.proto\
+ ../Contracts/Protos/CustomTypes.proto\
+ ../Contracts/Protos/Customer.proto
