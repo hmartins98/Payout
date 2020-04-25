@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/CustomTypes.cs: C:/Users/User/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/timestamp.proto\
+ ../Contracts/Protos/CustomTypes.proto

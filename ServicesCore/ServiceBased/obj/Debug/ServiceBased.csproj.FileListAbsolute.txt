@@ -1,0 +1,6 @@
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\bin\Debug\ServiceBased.dll
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\bin\Debug\ServiceBased.pdb
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\obj\Debug\ServiceBased.csprojAssemblyReference.cache
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\obj\Debug\ServiceBased.csproj.CoreCompileInputs.cache
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\obj\Debug\ServiceBased.dll
+C:\Users\User\Code\Payout\ServicesCore\ServiceBased\obj\Debug\ServiceBased.pdb

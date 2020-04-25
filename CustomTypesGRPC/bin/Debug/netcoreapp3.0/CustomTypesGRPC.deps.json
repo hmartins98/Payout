@@ -1,0 +1,117 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CustomTypesGRPC/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "Grpc.AspNetCore.Server": "2.27.0",
+          "Grpc.Tools": "2.27.0"
+        },
+        "runtime": {
+          "CustomTypesGRPC.dll": {}
+        }
+      },
+      "Google.Protobuf/3.11.4": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.11.4.0",
+            "fileVersion": "3.11.4.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server/2.27.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.27.0",
+          "Grpc.Net.Common": "2.27.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.27.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.27.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.27.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.27.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.27.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.27.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.27.0": {},
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "CustomTypesGRPC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dajCxjDCiPyZuqwZCkFJTwhn/0TJ5VesIs4fXvs56ez1VUi68JjhYMMsPjnJ9gcPqJwTMtXMU1WqUdXYiG1x4w==",
+      "path": "google.protobuf/3.11.4",
+      "hashPath": "google.protobuf.3.11.4.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2z5MItXo9IxT+kikB82zVpzmwUF/cDjWq0oJHgnhql9JAu62LpY+gb8u1LR1X+YWPc+EznFsPWS1GBSUAZ7bGg==",
+      "path": "grpc.aspnetcore.server/2.27.0",
+      "hashPath": "grpc.aspnetcore.server.2.27.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UAHXfV+n6TEMCybML7V+1qWP7G9byGXUE2mtATWpctP7xB8P5J++iYMuyxrprKkC36X/QuUwHJmHpBxlDHzF2g==",
+      "path": "grpc.core.api/2.27.0",
+      "hashPath": "grpc.core.api.2.27.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qMd5Yf6PsN+TxGmz/wPB1dbih7HHgTkWhIZ2wYQX52znbWG2uBaZsBcyQgda1nNaMrXJzevbGb9eFKnvqmOBkw==",
+      "path": "grpc.net.common/2.27.0",
+      "hashPath": "grpc.net.common.2.27.0.nupkg.sha512"
+    },
+    "Grpc.Tools/2.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eaDHiBziIPLpJ9vLGgxW3YXgHhYCKi0yPgyVuDM1dSTQEzwzannL9i9aqaPfcVliY/vWDCik3ki0PPwxzLUdww==",
+      "path": "grpc.tools/2.27.0",
+      "hashPath": "grpc.tools.2.27.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\User\Code\Payout\CustomTypesGRPC\bin\Debug\netcoreapp3.0\CustomTypesGRPC.deps.json
+C:\Users\User\Code\Payout\CustomTypesGRPC\bin\Debug\netcoreapp3.0\CustomTypesGRPC.dll
+C:\Users\User\Code\Payout\CustomTypesGRPC\bin\Debug\netcoreapp3.0\CustomTypesGRPC.pdb
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.csprojAssemblyReference.cache
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.csproj.CoreCompileInputs.cache
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.AssemblyInfoInputs.cache
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.AssemblyInfo.cs
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.dll
+C:\Users\User\Code\Payout\CustomTypesGRPC\obj\Debug\netcoreapp3.0\CustomTypesGRPC.pdb

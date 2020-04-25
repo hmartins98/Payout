@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Code\\Payout\\ClientExample\\ClientExample.csproj": {}
+    "C:\\Users\\User\\Code\\Payout\\MicroServices\\CustomerService\\CustomerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Code\\Payout\\ClientExample\\ClientExample.csproj": {
+    "C:\\Users\\User\\Code\\Payout\\MicroServices\\CustomerService\\CustomerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Code\\Payout\\ClientExample\\ClientExample.csproj",
-        "projectName": "ClientExample",
-        "projectPath": "C:\\Users\\User\\Code\\Payout\\ClientExample\\ClientExample.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Code\\Payout\\MicroServices\\CustomerService\\CustomerService.csproj",
+        "projectName": "CustomerService",
+        "projectPath": "C:\\Users\\User\\Code\\Payout\\MicroServices\\CustomerService\\CustomerService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Code\\Payout\\ClientExample\\obj\\",
+        "outputPath": "C:\\Users\\User\\Code\\Payout\\MicroServices\\CustomerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,15 +45,27 @@
               "target": "Package",
               "version": "[3.11.4, )"
             },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
+            "Grpc.AspNetCore.Server": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
             "Grpc.Net.ClientFactory": {
               "target": "Package",
-              "version": "[2.27.0, )"
+              "version": "[2.28.0, )"
             },
             "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.27.0, )"
+              "version": "[2.28.1, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -67,6 +79,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
